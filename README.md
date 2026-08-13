@@ -1,0 +1,1 @@
+# fm-single-price-component
