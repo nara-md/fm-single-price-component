@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
 :root {
   --p-size: 1rem;
-  --bg-color: hsl(204, 43%, 93%);
+  --bg-color: hsl(30, 30%, 94%);
+  --font: "Karla", sans-serif;
 }
 
 body {
@@ -8,6 +11,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: var(--bg-color);
+  font-family: var(--font);
 }
 
 p {

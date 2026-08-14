@@ -10,7 +10,7 @@ function  myComponent(props) {
             </div>
             <div className="item2">
                 <h2>{props.title2}</h2>
-                <span>{props.price2}</span>
+                <span>{props.value}<span>{props.time}</span></span>
                 <p>{props.description2}</p>
                 <button>{props.button2}</button>
             </div>
