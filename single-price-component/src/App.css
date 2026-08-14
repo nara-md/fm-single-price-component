@@ -12,6 +12,7 @@ body {
   align-items: center;
   background-color: var(--bg-color);
   font-family: var(--font);
+  padding: 2rem 0;
 }
 
 p {
