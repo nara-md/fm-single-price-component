@@ -1,5 +1,15 @@
+:root {
+  --p-size: 1rem;
+  --bg-color: hsl(204, 43%, 93%);
+}
+
 body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: var(--bg-color);
+}
+
+p {
+  font-size: var(--p-size);
 }
